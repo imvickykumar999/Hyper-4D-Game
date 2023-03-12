@@ -12,7 +12,7 @@
 
 --------------------
 
-> [![ss](https://cdn.akamai.steamstatic.com/steam/apps/1941640/ss_6e6bbac78b0cbddb9cbc2b878174e8a6411949d6.jpg?t=1666354526)](https://store.steampowered.com/app/1941640/4D_Miner/)
+> [![Hyperspider](https://user-images.githubusercontent.com/50515418/224557630-93476172-00bd-4ca5-b21c-171b21313613.png)](https://youtu.be/u8LMyWcKL_c?t=230)
 
 -------------------------
 
@@ -82,7 +82,8 @@ Hyper Compass
 
 <br>
 
-- **A person** *on* [`Flatland`](https://youtu.be/nUExziADzjc?t=66) *can* `NOT` *see* `3D Object until it` **intersects with** `Plane that person lives on`.
+- **A person** *on* [**`Flatland`**](https://youtu.be/nUExziADzjc?t=66) *can* *`NOT`* *see a* *`3D Object`* *until it* **intersects with** `Plane that person lives on`.
+- *Similarly*, **A person** *on* **`Earth`** *can* *`NOT`* *see a* *`4D Object`* *like* [**`HyperSpider`**](https://youtu.be/u8LMyWcKL_c?t=230) *until it* **intersects with** `our 3D space we live on`.
 
 > [![image](https://user-images.githubusercontent.com/50515418/224556673-70a83dc4-f334-48f0-9b14-9dfcf7b9ec9d.png)](https://youtu.be/nUExziADzjc?t=66)
 
