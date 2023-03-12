@@ -78,7 +78,10 @@ Hyper Compass
      2D and 3D Fancy words are Outdated,
      Let's talk about 4D Hypercube and one Dimentional Games.
 
+[▶](https://imvickykumar999.github.io/1D-Game/) Play Now
+------------
+
 `Projection` of **2D View** on *1D line*.
 
-> [![image](https://user-images.githubusercontent.com/50515418/224546315-bb5ae409-628e-49ca-a4b8-c82908bf2a8c.png)](https://www.youtube.com/watch?v=3xx7sgNVE-A)
+> [![image](https://user-images.githubusercontent.com/50515418/224546315-bb5ae409-628e-49ca-a4b8-c82908bf2a8c.png)](https://imvickykumar999.github.io/1D-Game/)
 
