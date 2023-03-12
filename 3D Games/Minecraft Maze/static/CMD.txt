@@ -1,0 +1,121 @@
+C:\Users\Vicky\Desktop\Repository\Panda3D-Games\My Games\Minecraft Maze>python MAZE.py
+package_folder: C:\Users\Vicky\anaconda3\lib\site-packages\ursina
+asset_folder: .
+:prc(warning): Invalid integer value for ConfigVariable win-size: 864.0
+:prc(warning): Invalid integer value for ConfigVariable win-size: 1536.0
+Known pipe types:
+  wglGraphicsPipe
+(3 aux display modules not yet loaded.)
+:prc(warning): changing default value for ConfigVariable paste-emit-keystrokes from '1' to '0'.
+1.0
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+w   w   c   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w
+
+w   w   c   w   w   c   c   c   c   c   c   c   c   c   c   c   c   c   c   w
+
+w   c   c   w   w   w   w   w   w   w   w   w   w   w   w   c   w   w   w   w
+
+w   w   c   c   w   w   w   w   w   c   c   c   w   w   c   c   c   c   c   w
+
+w   c   c   w   w   c   c   c   w   w   w   c   w   w   w   c   w   c   w   w
+
+w   w   c   c   w   w   w   c   c   w   c   c   c   w   w   c   w   w   w   w
+
+w   w   c   w   w   c   w   w   c   w   w   w   c   w   w   c   w   w   c   w
+
+w   c   c   c   c   c   c   c   c   c   c   c   c   c   c   c   c   c   c   w
+
+w   w   c   w   c   w   c   w   w   w   w   c   w   w   w   w   w   w   c   w
+
+w   w   w   w   w   w   w   w   c   c   c   c   w   w   w   c   c   c   c   w
+
+w   c   w   c   w   c   w   c   c   w   w   w   w   c   c   c   w   c   w   w
+
+w   c   c   c   w   c   w   w   c   w   w   c   c   c   w   c   w   c   w   w
+
+w   w   w   c   c   c   c   c   c   w   w   c   w   c   w   c   w   c   c   w
+
+w   c   c   c   w   c   w   c   w   w   w   w   w   w   w   c   w   w   c   w
+
+w   c   w   c   w   w   w   w   w   w   c   w   c   c   c   c   w   w   c   w
+
+w   w   w   c   w   c   c   c   c   c   c   c   c   w   w   c   w   w   c   w
+
+w   c   c   c   w   c   w   c   w   c   w   w   c   w   c   c   c   w   c   w
+
+w   w   c   w   w   w   w   w   w   c   w   w   c   w   w   c   w   w   c   w
+
+w   c   c   w   c   c   c   c   c   c   w   w   c   w   c   c   w   w   c   w
+
+w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   c   w
+
+--------------------------------------------------------------------------------
+ w   w   p   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w
+
+ w   w   p   w   w   c   c   c   c   c   c   c   c   c   c   c   c   c   c   w
+
+ w   c   p   w   w   w   w   w   w   w   w   w   w   w   w   c   w   w   w   w
+
+ w   w   p   c   w   w   w   w   w   c   c   c   w   w   c   c   c   c   c   w
+
+ w   c   p   w   w   c   c   c   w   w   w   c   w   w   w   c   w   c   w   w
+
+ w   w   p   c   w   w   w   c   c   w   c   c   c   w   w   c   w   w   w   w
+
+ w   w   p   w   w   c   w   w   c   w   w   w   c   w   w   c   w   w   c   w
+
+ w   c   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   p   w
+
+ w   w   c   w   c   w   c   w   w   w   w   c   w   w   w   w   w   w   p   w
+
+ w   w   w   w   w   w   w   w   c   c   c   c   w   w   w   c   c   p   p   w
+
+ w   c   w   c   w   c   w   c   c   w   w   w   w   c   c   c   w   p   w   w
+
+ w   c   c   c   w   c   w   w   c   w   w   c   c   c   w   c   w   p   w   w
+
+ w   w   w   c   c   c   c   c   c   w   w   c   w   c   w   c   w   p   p   w
+
+ w   c   c   c   w   c   w   c   w   w   w   w   w   w   w   c   w   w   p   w
+
+ w   c   w   c   w   w   w   w   w   w   c   w   c   c   c   c   w   w   p   w
+
+ w   w   w   c   w   c   c   c   c   c   c   c   c   w   w   c   w   w   p   w
+
+ w   c   c   c   w   c   w   c   w   c   w   w   c   w   c   c   c   w   p   w
+
+ w   w   c   w   w   w   w   w   w   c   w   w   c   w   w   c   w   w   p   w
+
+ w   c   c   w   c   c   c   c   c   c   w   w   c   w   c   c   w   w   p   w
+
+ w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   w   p   w
+
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+info: psd-tools3 not installed
+warning: missing texture: 'cobblestone'
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+info: psd-tools3 not installed
+warning: missing texture: 'cobblestone'
+return True
+return True
+screen resolution: (1920, 1080)
+os: Windows
+development mode: True
+application successfully started
+info: changed aspect ratio: 1.778 -> 1.778
+* interrupt by keyboard
+
+C:\Users\Vicky\Desktop\Repository\Panda3D-Games\My Games\Minecraft Maze>
