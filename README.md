@@ -28,6 +28,8 @@
 
 - `Minecraft's Most Mind-Blowing Builds`[!](https://youtu.be/E5gEI9JYLHE?t=106)
 
+<br>
+
 > We are doing NOTHING, developers are push_hhhhhhh_ing their limits_sssssssss...
 
     I thought 4th dimention is time like (x,y,z,t) 
@@ -77,6 +79,14 @@ Hyper Compass
 
      2D and 3D Fancy words are Outdated,
      Let's talk about 4D Hypercube and one Dimentional Games.
+
+<br>
+
+- **A person** *on* [`Flatland`](https://youtu.be/nUExziADzjc?t=66) *can* `NOT` *see* `3D Object until it` **intersects with** `Plane that person lives on`.
+
+> [![image](https://user-images.githubusercontent.com/50515418/224556673-70a83dc4-f334-48f0-9b14-9dfcf7b9ec9d.png)](https://youtu.be/nUExziADzjc?t=66)
+
+-------------------
 
 [▶](https://imvickykumar999.github.io/1D-Game/) Play Now
 ------------
