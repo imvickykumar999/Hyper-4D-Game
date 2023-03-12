@@ -23,7 +23,22 @@
      
      But in 4D games, there are many uncovered surfaces and say for example,
      an HYPERSPIDER can appear from Nowhere in your 3D shelter in 4D games.
-     
+
+----------------------------
+
+    I thought 4th dimention is time like (x,y,z,t) 
+    but it's actually (x,y,z,w)
+
+    where,
+        t is time, and, ...
+
+        w is projection of 4D object on 3D space, 
+        just like shadow of 3D object on 2D plane.
+
+    It might be, t is 5th Dimention like, (x,y,z,w,t)
+    and, w can be changed by scrolling curser as shown in Ref. Video, 
+    where a HyperSpider appeared in closed cube from Nowhere.
+
 ------------------------------  
 
 ## `4D Tool`
