@@ -12,7 +12,7 @@
 
 --------------------
 
-> [![ss](https://cdn.akamai.steamstatic.com/steam/apps/1941640/ss_6e6bbac78b0cbddb9cbc2b878174e8a6411949d6.jpg?t=1666354526)](https://store.steampowered.com/app/1941640/4D_Miner/)
+> [![Hyperspider](https://user-images.githubusercontent.com/50515418/224557630-93476172-00bd-4ca5-b21c-171b21313613.png)](https://youtu.be/u8LMyWcKL_c?t=230)
 
 -------------------------
 
@@ -23,7 +23,28 @@
      
      But in 4D games, there are many uncovered surfaces and say for example,
      an HYPERSPIDER can appear from Nowhere in your 3D shelter in 4D games.
-     
+
+----------------------------
+
+- `Minecraft's Most Mind-Blowing Builds`[!](https://youtu.be/E5gEI9JYLHE?t=106)
+
+<br>
+
+> We are doing NOTHING, developers are push_hhhhhhh_ing their limits_sssssssss...
+
+    I thought 4th dimention is time like (x,y,z,t) 
+    but it's actually (x,y,z,w)
+
+    where,
+        t is time, and, ...
+
+        w is projection of 4D object on 3D space, 
+        just like shadow of 3D object on 2D plane.
+
+    It might be, t is 5th Dimention like, (x,y,z,w,t)
+    and, w can be changed by scrolling curser as shown in Ref. Video, 
+    where a HyperSpider appeared in closed cube from Nowhere.
+
 ------------------------------  
 
 ## `4D Tool`
@@ -58,5 +79,20 @@ Hyper Compass
 
      2D and 3D Fancy words are Outdated,
      Let's talk about 4D Hypercube and one Dimentional Games.
-     
-------------------------
+
+<br>
+
+- **A person** *on* [**`Flatland`**](https://youtu.be/nUExziADzjc?t=66) *can* *`NOT`* *see a* *`3D Object`* *until it* **intersects with** `Plane that person lives on`.
+- *Similarly*, **A person** *on* **`Earth`** *can* *`NOT`* *see a* *`4D Object`* *like* [**`HyperSpider`**](https://youtu.be/u8LMyWcKL_c?t=230) *until it* **intersects with** `our 3D space we live on`.
+
+> [![image](https://user-images.githubusercontent.com/50515418/224556673-70a83dc4-f334-48f0-9b14-9dfcf7b9ec9d.png)](https://youtu.be/nUExziADzjc?t=66)
+
+-------------------
+
+[▶](https://imvickykumar999.github.io/1D-Game/) Play Now
+------------
+
+`Projection` of **2D View** on *1D line*.
+
+> [![image](https://user-images.githubusercontent.com/50515418/224546315-bb5ae409-628e-49ca-a4b8-c82908bf2a8c.png)](https://imvickykumar999.github.io/1D-Game/)
+
