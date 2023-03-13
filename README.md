@@ -16,11 +16,18 @@
 
 --------------------
 
-### *A* `4D Hyperspider`
+## *A* `4D Hyperspider`
 
 > [![Hyperspider](https://user-images.githubusercontent.com/50515418/224557630-93476172-00bd-4ca5-b21c-171b21313613.png)](https://youtu.be/u8LMyWcKL_c?t=230)
 
 -------------------------
+
+## `Funfact` *about 4th Dimentions*
+
+- Insects which can't fly belongs to flatland.
+- Ghost are from 4th Dimension as they appears from Nowhere, and they intersects with w=0 at night XD.
+
+----------------------------
 
 ## `Man Ki Baat` : [`Hmmm` ...](https://youtu.be/u8LMyWcKL_c?t=597)
 
