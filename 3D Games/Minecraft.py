@@ -1,12 +1,11 @@
 
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
+# import numpy as np
 
 app = Ursina()
 c=0
 opt_texture = [
-    'arrow_down',
-    'arrow_right',
     'brick',
     'circle',
     'circle_outlined',
@@ -51,14 +50,31 @@ for y in range(0,51,25):
 
 def input(key):
     global c, player
-
     hit_info = raycast(camera.world_position, camera.forward, distance=100)
-    # print(player.x, hit_info.entity.position.x)
 
-    if key == 'right mouse down': # grappling hook (to make smooth)
+    if key == 'right mouse down': 
         player.x = hit_info.entity.position.x
         player.y = hit_info.entity.position.y
         player.z = hit_info.entity.position.z
+
+        # # need to create smooth flow of grapple rather than instant switch.
+
+        # x_steps = int(abs(player.x - hit_info.entity.position.x))
+        # y_steps = int(abs(player.y - hit_info.entity.position.y))
+        # z_steps = int(abs(player.z - hit_info.entity.position.z))
+
+        # x_flow = np.linspace(start = player.x, stop = hit_info.entity.position.x, num = 100*x_steps)
+        # y_flow = np.linspace(start = player.y, stop = hit_info.entity.position.y, num = 100*y_steps)
+        # z_flow = np.linspace(start = player.z, stop = hit_info.entity.position.z, num = 100*z_steps)
+
+        # # for (i,j,k) in zip(x_flow, y_flow, z_flow):
+        # for i in x_flow:
+        #     for j in y_flow:
+        #         for k in z_flow:
+        #             # print(i,j,k)
+        #             player.x = i
+        #             player.y = j
+        #             player.z = k
 
     if key == 'c':
         c+=1
@@ -79,12 +95,10 @@ def input(key):
 window.fullscreen = 1
 player = FirstPersonController(gravity=.2)
 
-# https://stackoverflow.com/a/75692459/11493297
 def update():
-    # print('Player is at Height = ', player.y)
-
     if player.y < -5:
-        player.y = 30 
+        player.y = 75 
+
 
 Sky()
 app.run()
