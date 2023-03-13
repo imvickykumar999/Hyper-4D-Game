@@ -1,5 +1,16 @@
 # `Hyper 4D Games`
 
+-------------------------
+
+## `Funfact` *about 4th Dimentions*
+
+- Insects which can't fly belongs to flatland.
+- Ghost are from 4th Dimension as they appears from Nowhere, and they intersects with w=0 at night XD.
+- We people are invisible to flatland's people until we intersect with their plain i.e. z=0, similarly we can't see people (HyperGhost) from 4th Dimention until they intersect with w=0.
+- Soul after our lifespan, lives in HyperSpace at (x,y,z,w,t) for all (w != 0 and t > lifespan)
+
+-----------------------------------
+
 ### **Visualizing** *a* [`4D Hypersphere`](https://www.reddit.com/r/educationalgifs/comments/6ty5ww/visualizing_a_4d_hypersphere/)
 
 > [![HyperSphere](https://github.com/imvickykumar999/Hyper-4D-Game/blob/main/4D%20Games/static/Visualizing%20a%204D%20Hypersphere.gif?raw=true)](https://youtu.be/4URVJ3D8e8k?t=898)
@@ -19,15 +30,6 @@
 ## *A* `4D Hyperspider`
 
 > [![Hyperspider](https://user-images.githubusercontent.com/50515418/224557630-93476172-00bd-4ca5-b21c-171b21313613.png)](https://youtu.be/u8LMyWcKL_c?t=230)
-
--------------------------
-
-## `Funfact` *about 4th Dimentions*
-
-- Insects which can't fly belongs to flatland.
-- Ghost are from 4th Dimension as they appears from Nowhere, and they intersects with w=0 at night XD.
-- We people are invisible to flatland's people until we intersect with their plain i.e. z=0, similarly we can't see people (HyperGhost) from 4th Dimention until they intersect with w=0.
-- Soul after our lifespan, lives in HyperSpace at (x,y,z,w,t) for all (w != 0 and t > lifespan)
 
 ----------------------------
 
