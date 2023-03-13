@@ -35,9 +35,9 @@ for z in range(n): # border
                           default_color=color.orange,
                           texture='brick')
 
-for z in range(1,n-1): # wall
+for x in range(1,n-1): # wall
     for y in range(1,n-1):
-        voxel = Voxel(position=(0,y,z),
+        voxel = Voxel(position=(x,y,0),
                       default_color=color.white,
                       texture='sky_sunset')
 
