@@ -5,7 +5,29 @@
 
 -------------------
 
-<img align="center" src="https://media.tenor.com/QrXOTk4VLi4AAAAM/tesseract-32edges.gif" width="400" height="500" />
+<table>
+<tr>
+
+<td>
+<a href="https://www.youtube.com/watch?v=GJ3ASYOxUMM">
+HyperCube
+</a>
+</td>
+
+<td>
+<a href="https://youtu.be/VvCytJvd4H0?t=744">
+TORUS Cup
+</a>
+</td>
+
+</tr>
+
+<tr>
+<td><img src="https://media.tenor.com/QrXOTk4VLi4AAAAM/tesseract-32edges.gif" alt="3" height = 450px></td>
+<td><img src="https://slideplayer.com/15745092/88/images/slide_3.jpg" alt="4" height = 450px></td>
+</tr>
+
+</table>
 
 ----------------------------
 
