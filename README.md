@@ -26,6 +26,8 @@
 
 - Insects which can't fly belongs to flatland.
 - Ghost are from 4th Dimension as they appears from Nowhere, and they intersects with w=0 at night XD.
+- We people are invisible to flatland's people until we intersect with their plain i.e. z=0, similarly we can't see people (HyperGhost) from 4th Dimention until they intersect with w=0.
+- Soul after our lifespan, lives in HyperSpace at (x,y,z,w,t) for all (w != 0 and t > lifespan)
 
 ----------------------------
 
