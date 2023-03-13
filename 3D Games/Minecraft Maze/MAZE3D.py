@@ -5,7 +5,7 @@ from CallMe import MAZE3D_generator as mzg
 from ursina import *
 
 app = Ursina()
-n=10 # initial maze side
+n=20 # initial maze side
 c=0  # texture index
 
 opt_texture = [
@@ -51,57 +51,61 @@ class Entity(Button):
         )
 
 p=-2
-for k in [0,-30,-50]:
-    n+=5
-    p+=1
+k=0
+# n=10
+# for k in [0,-30,-50]:
+# n+=5
+# p+=1
 
-    us_maze = mzg.returnMaze(n,n)
-    # print(us_maze) # UNsolved
+us_maze = mzg.returnMaze(n,n)
+# print(us_maze) # UNsolved
 
-    s_maze = mzs.solve_maze(us_maze)
-    # print(s_maze) # Solved
+s_maze = mzs.solve_maze(us_maze)
+# print(s_maze) # Solved
 
-    y=k
-    for z in range(len(s_maze)):
-        for x in range(len(s_maze[z])):
-            c+=1
+y=k
+for z in range(len(s_maze)):
+    for x in range(len(s_maze[z])):
+        c+=1
 
-            if us_maze[z][x] == 'p':
-                Entity(position=(x,y,z), 
-                    texture=opt_texture[c%len(opt_texture)],
-                    # texture='ursina_logo',
-                    default_color=color.blue,
-                    )
-            else:
-                Entity(position=(x,y,z))
-                # voxel = Voxel(position=(x,y,z))
-                
-    y=k+1                          # for lower wall
-    # for y in range(k+1,k+3+p):   # for higher wall
-    for z in range(len(us_maze)):
-        for x in range(len(us_maze[z])):
+        if us_maze[z][x] == 'p':
+            Entity(position=(x,y,z), 
+                texture=opt_texture[c%len(opt_texture)],
+                # texture='ursina_logo',
+                default_color=color.blue,
+                )
+        else:
+            Entity(position=(x,y,z))
+            # voxel = Voxel(position=(x,y,z))
+            
+y=k+1                          # for lower wall
+# for y in range(k+1,k+3+p):   # for higher wall
+for z in range(len(us_maze)):
+    for x in range(len(us_maze[z])):
 
-            if us_maze[z][x] == 'w':
-                Entity(position=(x,y,z), 
-                    texture='brick',
-                    # scale=(.5,.5,.5),
-                    default_color=color.orange,
-                    )
+        if us_maze[z][x] == 'w':
+            Entity(position=(x,y,z), 
+                texture='brick',
+                # scale=(.5,.5,.5),
+                default_color=color.orange,
+                )
 
 def input(key):
-    if key == 'left mouse down':
-        hit_info = raycast(camera.world_position, camera.forward, distance=100)
+    global player
+    hit_info = raycast(camera.world_position, camera.forward, distance=100)
 
+    if key == 'right mouse down': 
+        player.x = hit_info.entity.position.x
+        player.y = hit_info.entity.position.y
+        player.z = hit_info.entity.position.z
+
+    if key == 'left mouse down':
         if hit_info.hit:
             Entity(position=hit_info.entity.position + hit_info.normal, 
                 texture='brick',
             #   scale=(.5,.5,.5),
                 default_color=color.orange,
                 )
-            
-    # # removing wall is not allowed.
-    # if key == 'right mouse down' and mouse.hovered_entity: 
-    #     destroy(mouse.hovered_entity)
 
 
 window.fullscreen = True
@@ -109,20 +113,21 @@ player = FPC(gravity=.07)
 
 def update():
     # print(player.y)
-
-    if (player.x > n-3 and player.z > n-3) or (player.x < 3 and player.z < 3):
-        print_on_screen("Jump Down to switch Levels", position=(-.1,0), 
-                        font = 'AbyssinicaSIL-Regular.ttf')     
-
-    if player.y > -2:
-        print_on_screen("Level 1", position=(0,.1))
-    elif player.y > -32:
-        print_on_screen("Level 2", position=(0,.2))
-    else:
-        print_on_screen("Level 3", position=(0,.3))
-
-    if player.y < -51:
+    if player.y < -5:
         player.y = 30
+
+    # if (player.x > n-3 and player.z > n-3) or (player.x < 3 and player.z < 3):
+    #     print_on_screen("Jump Down to switch Levels", position=(-.1,0))
+
+    # if player.y > -2:
+    #     print_on_screen("Level 1", position=(0,.1))
+    # elif player.y > -32:
+    #     print_on_screen("Level 2", position=(0,.2))
+    # else:
+    #     print_on_screen("Level 3", position=(0,.3))
+
+    # if player.y < -51:
+    #     player.y = 30
 
 Sky()
 app.run()
