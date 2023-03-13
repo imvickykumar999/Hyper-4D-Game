@@ -2,7 +2,7 @@
 
 ### **Visualizing** *a* [`4D Hypersphere`](https://www.reddit.com/r/educationalgifs/comments/6ty5ww/visualizing_a_4d_hypersphere/)
 
-> [![HyperSphere](https://github.com/imvickykumar999/Hyper-4D-Game/blob/main/4D%20Games/static/Visualizing%20a%204D%20Hypersphere.gif?raw=true)](https://www.youtube.com/watch?v=4URVJ3D8e8k)
+> [![HyperSphere](https://github.com/imvickykumar999/Hyper-4D-Game/blob/main/4D%20Games/static/Visualizing%20a%204D%20Hypersphere.gif?raw=true)](https://youtu.be/4URVJ3D8e8k?t=898)
 
 -------------------
 
