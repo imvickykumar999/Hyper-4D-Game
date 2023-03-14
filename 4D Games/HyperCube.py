@@ -4,22 +4,50 @@ from random import randint
 import time
 
 app = Ursina()
+camera.position = (5,0,-30)
+
+c=0
+opt_texture = [
+    'sky_default',
+    'circle_outlined',
+    'brick',
+    'grass',
+    'heightmap_1',
+    'horizontal_gradient',
+    'noise',
+    'radial_gradient',
+    'reflection_map_3',
+    'shore',
+    'sky_sunset',
+    'ursina_logo',
+    'ursina_wink_0000',
+    'ursina_wink_0001',
+    'vertical_gradient',
+    'white_cube',
+]
 
 def input(key):
+    global c
+
     if key == 'c':
-        red = random.randint(0,255)
-        green = random.randint(0,255)
-        blue = random.randint(0,255)
+        red = randint(0,255)
+        green = randint(0,255)
+        blue = randint(0,255)
         cube.color = color.rgb(red, green, blue)
 
+    if key == 'space':
+        c+=1
+
+
 def update():
-    global speed, deatils, cube
-    camera.position = (5,0,-30)
+    global speed, deatils, cube, c
+    cube.texture = opt_texture[c%len(opt_texture)]
 
     deatils.text = f'''
 >>> Details ...
 -----------------------------
 Unix Time = {int(time.time())}
+Texture = {str(cube.texture).split('.')[0]}
 Speed = {speed}
 
 Coordinate X = {cube.x}
@@ -72,14 +100,13 @@ Rotation   Z = {cube.rotation_z}
 speed=100.0
 cube = Entity(model='cube',
               color=color.violet,
-              texture='brick',
+              texture='sky_sunset',
               scale=4,
               )
 
 instructions = '''
 >>> Instructions ...
 --------------------------
-
 Camera Angle is at `Z` = -30
 Hold  `O` to Increase scale (4D)
 Hold  `P` to Decrease scale (4D)
@@ -100,17 +127,19 @@ Hold  `D` to move Right
 Hold  `R` to move Ahead
 Hold  `F` to move Back
 Press `C` to change Color
+Press `Space` to change Texture
 
 Hold  `E` to change Spin Speed Clockwise
 Hold  `Q` to change Spin Speed Anti-Clockwise
 '''
 
-instruct = Text(instructions, 
-                scale=.8,
-                origin=(-.5, .4),
-                font='VeraMono.ttf', 
-                color=color.blue,
-                ) 
+Text(
+instructions, 
+scale=.8,
+origin=(-.5, .4),
+font='VeraMono.ttf', 
+color=color.blue,
+) 
 
 deatils = Text(origin=(-.6, -.7),
                 font='VeraMono.ttf', 
