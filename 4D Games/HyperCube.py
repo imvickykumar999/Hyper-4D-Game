@@ -5,18 +5,16 @@ from random import randint
 app = Ursina()
 
 def input(key):
-    if key == 'z':
-        cube.scale = 10
+    if held_keys['z']:
+        cube.scale += (.1,.1,.1)
     if held_keys['x']:
-        cube.scale -=.1
+        cube.scale -= (.1,.1,.1)
 
     if key == 'c':
         red = random.randint(0,255)
         green = random.randint(0,255)
         blue = random.randint(0,255)
-        cube.color = color.rgb(red, 
-                               green, 
-                               blue)
+        cube.color = color.rgb(red, green, blue)
 
 def update():
     global speed
@@ -47,11 +45,11 @@ def update():
     if held_keys['v']:
         cube.rotation_x -= time.dt*speed
 
-    camera.position = (0,0,-30)
+    camera.position = (5,0,-30)
 
 cube = Entity(model='cube',
               color=color.orange,
-              texture='white_cube',
+              texture='brick',
               scale=4,
               )
 
@@ -63,32 +61,33 @@ instructions = f'''
 
 Camera Angle is at Z = -30
 
-    Hold w to move up
-    Hold s to move down
-    Hold a to move left
-    Hold d to move right
-
-    Hold r to move ahead
-    Hold f to move back
-
-    Hold t to spin clockwise
-Hold g to move anti-clockwise
-
-    Press c to change color
-    Press z to reset scale
-    Hold x to change scale
+Hold x to decrease scale (4D)
+Hold z to increase scale (4D)
 
 Hold v to rotate in x axis
 Hold q to rotate in y axis
 Hold e to rotate in z axis
+
+Hold w to move up
+Hold s to move down
+Hold a to move left
+Hold d to move right
+
+Hold r to move ahead
+Hold f to move back
+
+Press c to change color
+Hold t to change spin speed clockwise
+Hold g to change spin speed anti-clockwise
 '''
 
 text = Text(instructions, 
-            origin=(-1.2, 0),
+            origin=(-.5, 0),
             font='VeraMono.ttf', 
             color=color.blue,
             resolution=100*Text.size,
             ) 
 
 Sky()
+window.fullscreen = 1
 app.run()
