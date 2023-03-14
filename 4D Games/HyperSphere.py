@@ -19,8 +19,8 @@ def update():
     deatils.text = f'''
 >>> Details ...
 -----------------------------
+Unix Time = {int(time.time())}
 Speed = {speed}
-Time = {int(time.time())}
 
 Coordinate X = {cube.x}
 Coordinate Y = {cube.y}
