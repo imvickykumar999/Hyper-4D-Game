@@ -1,6 +1,7 @@
 
 from ursina import *
 from random import randint
+import time
 
 app = Ursina()
 
@@ -11,27 +12,37 @@ def input(key):
         blue = random.randint(0,255)
         cube.color = color.rgb(red, green, blue)
 
-
 def update():
     global speed, deatils, cube
     camera.position = (5,0,-30)
 
     deatils.text = f'''
-    Speed = {speed}
-    Cube X = {cube.x}
-    Cube Y = {cube.y}
-    Cube Z = {cube.z}
-    '''
+>>> Details ...
+-----------------------------
+Speed = {speed}
+Time = {int(time.time())}
 
-    if held_keys['z']:
+Coordinate X = {cube.x}
+Coordinate Y = {cube.y}
+Coordinate Z = {cube.z}
+
+Radius     R = {sqrt((cube.scale.x)**2 + (cube.scale.y)**2 + (cube.scale.z)**2)}
+Coordinate W = {cube.scale}
+
+Rotation   X = {cube.rotation_x}
+Rotation   Y = {cube.rotation_y}
+Rotation   Z = {cube.rotation_z}
+'''
+
+    if held_keys['o']:
         cube.scale += (.1,.1,.1)
-    if held_keys['x']:
+    if held_keys['p']:
         cube.scale -= (.1,.1,.1)
 
-    if held_keys['t']:
-        speed += 1
-    if held_keys['g']:
-        speed -= 1
+    if held_keys['e']:
+        speed += 5.0
+    if held_keys['q']:
+        speed -= 5.0
 
     if held_keys['d']:
         cube.x += time.dt
@@ -41,62 +52,68 @@ def update():
         cube.x -= time.dt
     if held_keys['s']:
         cube.y -= time.dt
-
     if held_keys['r']:
         cube.z += time.dt*20
     if held_keys['f']:
         cube.z -= time.dt*20
 
-    if held_keys['q']:
-        cube.rotation_y -= time.dt*speed
-    if held_keys['e']:
-        cube.rotation_z -= time.dt*speed
-    if held_keys['v']:
+    if held_keys['j']:
         cube.rotation_x -= time.dt*speed
+    if held_keys['u']:
+        cube.rotation_y -= time.dt*speed
+    if held_keys['m']:
+        cube.rotation_z -= time.dt*speed
 
+    if held_keys['l']:
+        cube.rotation_x += time.dt*speed
+    if held_keys['i']:
+        cube.rotation_y += time.dt*speed
+    if held_keys['k']:
+        cube.rotation_z += time.dt*speed
 
-speed=100
+speed=100.0
 cube = Entity(model='sphere',
               color=color.violet,
               texture='sky_sunset',
               scale=4,
               )
 
-
 instructions = '''
-    Instructions ...
+>>> Instructions ...
 --------------------------
+Camera Angle is at `Z` = -30
+Hold  `O` to Increase scale (4D)
+Hold  `P` to Decrease scale (4D)
 
-Camera Angle is at Z = -30
+Hold  `L` to Rotate in X axis
+Hold  `I` to Rotate in Y axis
+Hold  `K` to Rotate in Z axis
 
-Hold x to decrease scale (4D)
-Hold z to increase scale (4D)
+Hold  `J` to Anit-Rotate in X axis
+Hold  `U` to Anit-Rotate in Y axis
+Hold  `M` to Anit-Rotate in Z axis
 
-Hold v to rotate in x axis
-Hold q to rotate in y axis
-Hold e to rotate in z axis
+Hold  `W` to move Up
+Hold  `S` to move Down
+Hold  `A` to move Left
+Hold  `D` to move Right
 
-Hold w to move up
-Hold s to move down
-Hold a to move left
-Hold d to move right
+Hold  `R` to move Ahead
+Hold  `F` to move Back
+Press `C` to change Color
 
-Hold r to move ahead
-Hold f to move back
-
-Press c to change color
-Hold t to change spin speed clockwise
-Hold g to change spin speed anti-clockwise
+Hold  `E` to change Spin Speed Clockwise
+Hold  `Q` to change Spin Speed Anti-Clockwise
 '''
 
-
 instruct = Text(instructions, 
-                origin=(-.5, .2),
+                scale=.8,
+                origin=(-.5, .4),
                 font='VeraMono.ttf', 
                 color=color.blue,
                 ) 
 
-deatils = Text(origin=(-.5, -2.5),
+deatils = Text(origin=(-.6, -.7),
                 font='VeraMono.ttf', 
                 color=color.red,
                 ) 
