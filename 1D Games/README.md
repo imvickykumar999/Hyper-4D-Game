@@ -1,6 +1,7 @@
 ## `Resources`
 
 - https://www.youtube.com/watch?v=NJWmfR7HBtI
+- https://www.youtube.com/watch?v=dXfvA8cFJ1I
 
 ---------------
 
