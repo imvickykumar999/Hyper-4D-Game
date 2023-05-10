@@ -1,6 +1,11 @@
 ># `Hyper 4D Games`
 >
 >[#just_random_thoughts](https://www.statology.org/pandas-3d-dataframe/)
+>
+>Lem'mi think about `4D Objects` in `3D Slices` on `2D Projection` with my `1D Brain`.
+> 
+
+<br>
 
 - In Pandas, [Series](https://pandas.pydata.org/pandas-docs/version/0.17.0/dsintro.html#series) (1D) is one dimentional.
 - Means, collection of series makes [Dataframe](https://pandas.pydata.org/pandas-docs/version/0.17.0/dsintro.html#dataframe) (2D).
