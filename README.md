@@ -1,4 +1,23 @@
-# `Hyper 4D Games`
+># `Hyper 4D Games`
+>
+>[#just_random_thoughts](https://www.statology.org/pandas-3d-dataframe/)
+>
+>Lem'mi think about `4D Objects` in `3D Slices` on `2D Projection` with my `1D Brain`.
+> 
+
+<br>
+
+- In Pandas, [Series](https://pandas.pydata.org/pandas-docs/version/0.17.0/dsintro.html#series) (1D) is one dimentional.
+- Means, collection of series makes [Dataframe](https://pandas.pydata.org/pandas-docs/version/0.17.0/dsintro.html#dataframe) (2D).
+- Similarly, collection of Dataframes makes [Panel](https://pandas.pydata.org/pandas-docs/version/0.17.0/dsintro.html#panel) (3D).
+- Why not, collection of Panels make a [Panel4D](https://pandas.pydata.org/pandas-docs/version/0.17.0/dsintro.html#panel4d-experimental) (experimental).
+
+--------------
+
+## `Building Block` [`UNIT`](https://youtu.be/vZp0ETdD37E?t=123)
+
+- Triangle is basic unit of 3D Object.
+- Tetrahedron is basic unit of 4D Object.
 
 -------------------------
 
@@ -66,7 +85,7 @@
 
 ## `4D Tool`
 
-<table>
+<table style="text-align:center">
 <tr>
 
 <td>
@@ -82,12 +101,6 @@ Hyper Compass
 </td>
 
 </tr>
-
-<tr>
-<td><img src="https://user-images.githubusercontent.com/50515418/224538020-b780c892-64a8-4c04-8180-e7ea7e95efbc.png" alt="3" height = 350px></td>
-<td><img src="https://user-images.githubusercontent.com/50515418/224538457-2b053194-5049-4add-a724-3c7dd8d02a75.png" alt="4" height = 350px></td>
-</tr>
-
 </table>
 
 ------------------------
