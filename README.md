@@ -103,8 +103,8 @@ Hyper Compass
 </tr>
 
 <tr>
-<td><img src="https://user-images.githubusercontent.com/50515418/224538020-b780c892-64a8-4c04-8180-e7ea7e95efbc.png" alt="3" height = 50%></td>
-<td><img src="https://user-images.githubusercontent.com/50515418/224538457-2b053194-5049-4add-a724-3c7dd8d02a75.png" alt="4" height = 50%></td>
+<td><img src="https://user-images.githubusercontent.com/50515418/224538020-b780c892-64a8-4c04-8180-e7ea7e95efbc.png" alt="3" height = "50%"></td>
+<td><img src="https://user-images.githubusercontent.com/50515418/224538457-2b053194-5049-4add-a724-3c7dd8d02a75.png" alt="4" height = "50%"></td>
 </tr>
 
 </table>
