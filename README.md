@@ -1,4 +1,11 @@
-# `Hyper 4D Games`
+># `Hyper 4D Games`
+>
+>[#just_random_thoughts](https://www.statology.org/pandas-3d-dataframe/)
+
+- In Pandas, [Series](https://pandas.pydata.org/pandas-docs/version/0.17.0/dsintro.html#series) (1D) is one dimentional.
+- Means, collection of series makes [Dataframe](https://pandas.pydata.org/pandas-docs/version/0.17.0/dsintro.html#dataframe) (2D).
+- Similarly, collection of Dataframes makes [Panel](https://pandas.pydata.org/pandas-docs/version/0.17.0/dsintro.html#panel) (3D).
+- Why not, collection of Panels make a [Panel4D](https://pandas.pydata.org/pandas-docs/version/0.17.0/dsintro.html#panel4d-experimental) (experimental).
 
 -------------------------
 
