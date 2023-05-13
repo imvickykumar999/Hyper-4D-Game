@@ -113,7 +113,7 @@ def update():
     if player.y < -10: # respawn
         player.y = 100
 
-    if (player.y < -5) or (tc - t > 100):
+    if (player.y < -5) or (tc - t > 60):
         won.text = 'You Lost'
         won.color = color.red
 
