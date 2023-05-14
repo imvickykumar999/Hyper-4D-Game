@@ -2,6 +2,7 @@
 import sys
 from ursina import *
 import fetch_commit as fc
+from ursina.shaders import lit_with_shadows_shader 
 from ursina.prefabs.first_person_controller import FirstPersonController
 
 app = Ursina()
@@ -46,14 +47,15 @@ class Voxel(Button):
                  ):
         
         super().__init__(
-            parent=scene,
-            position=position,
-            collider='box',
-            model='cube',
             origin_y=.5,
+            parent=scene,
+            model='cube',
+            collider='box',
             texture=texture,
-            highlight_color=color.red,
+            position=position,
             color=default_color,
+            highlight_color=color.red,
+            shader=lit_with_shadows_shader,
         )
 
 try:
@@ -145,6 +147,9 @@ won = Text(
     origin=(0,-4),
 	color=color.green,
 	) 
+
+pivot = Entity()
+DirectionalLight(parent=pivot, y=2, z=3, shadows=True, rotation=(45, -45, 45))
 
 skybox_image = load_texture("static/space.png")
 sky = Sky(texture=skybox_image)

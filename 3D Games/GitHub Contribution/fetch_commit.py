@@ -32,8 +32,8 @@ def commit_history(username):
             pass
     return du
 
-username = input('Enter Username : ')
-if username == '':
-    username = 'Sen-Takatsuki'
-plain = commit_history(username)
-print(plain)
+# username = input('Enter Username : ')
+# if username == '':
+#     username = 'Sen-Takatsuki'
+# plain = commit_history(username)
+# print(plain)
