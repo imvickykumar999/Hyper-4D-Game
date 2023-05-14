@@ -126,8 +126,5 @@ def update():
     # else:
     #     print_on_screen("Level 3", position=(0,.3))
 
-    # if player.y < -51:
-    #     player.y = 30
-
 Sky()
 app.run()
