@@ -1,9 +1,13 @@
 
-def commit_history(username):
+def commit_history(username, year):
     import requests
     from bs4 import BeautifulSoup as bs
 
-    link = f'https://github.com/{username}'
+    if year == None:
+        link = f'https://github.com/{username}'
+    else:
+        link = f'https://github.com/{username}?tab=overview&from={year}-12-01&to={year}-12-31'
+
     req = requests.get(link)
     soup = bs(req.content, 'html5lib')
 

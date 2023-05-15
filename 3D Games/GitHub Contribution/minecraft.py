@@ -63,7 +63,12 @@ try:
 except:
     username = 'imvickykumar999'
 
-plain = fc.commit_history(username)
+try:
+    year = sys.argv[2]
+except:
+    year = None
+
+plain = fc.commit_history(username, year)
 # print(plain)
 
 for i in plain:
@@ -155,4 +160,8 @@ sky = Sky(texture=skybox_image)
 app.run()
 
 # username = sys.argv[1]
+# year = sys.argv[2]
+
 # python minecraft.py JeffersonRPM
+# python minecraft.py imvickykumar999 2019
+# python minecraft.py Sen-Takatsuki 2010
