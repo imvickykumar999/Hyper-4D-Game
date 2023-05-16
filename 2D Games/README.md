@@ -1,5 +1,11 @@
 
-# Dino 🦕 : [Tutorial](https://fossbytes.com/hack-dinosaur-game-google-chrome/)
+# `Project Ideas`:
+
+- Create a BINGO Game using socket library.
+
+------------------
+
+# `Dino` 🦕 : [`Tutorial`](https://fossbytes.com/hack-dinosaur-game-google-chrome/)
 
     Go to chrome://dino
 
