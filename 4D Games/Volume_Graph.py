@@ -1,35 +1,39 @@
 
-# https://colab.research.google.com/drive/1-Ilo-MFRbiCxiQEgAIcaU8TjvpHmMx-J#scrollTo=c0Mekc6Jw3ir
-
-import librosa, winsound
+import librosa, winsound, json
 import matplotlib.pylab as plt
 
+song = input('\nEnter song name: ')
+scale = 5000
+
 def save_plot(filename):
-    y, sr = librosa.load(filename)        
+    y, sr = librosa.load(filename)
+    plt.figure(figsize=(20, 10))
+    plt.title(song)
     plt.xlabel('time')
     plt.ylabel('amplitude')
     plt.plot(y)
-    plt.savefig('output/Dior.png')
+    plt.savefig(f'output/{song}.png')
     return y, sr
 
-y, sr = save_plot('input/Dior.mp3')
-# https://youtu.be/S0nOYs0PRak
+y, sr = save_plot(f'input/{song}.mp3')
+dictionary = {}
 
-with open('output/Dior.txt', 'w') as f:
-    for i, j in enumerate(y[::sr]):
-        # try:
-        #     duration = 1000 # 1 sec
-        #     frequency = int(10000*j)
+for i, j in enumerate(y[::sr]):
+    try:
+        duration = 1000 # 1 sec
+        frequency = scale + int(scale*j)
 
-        #     winsound.Beep(frequency, duration)
-        #     print(i, 10000*j)
+        winsound.Beep(frequency, duration)
+        print(i, 'sec. ', int(scale*(1 + j)), 'Hz.')
 
-        # except:
-        #     pass
-        f.write(f'{j}, ')
+    except:
+        pass
 
-print(y[::sr], len(y)/sr, 'seconds')
-# ValueError: frequency must be in 37 thru 32767
+    dictionary.update({i: scale*(1 + j)})
+json_object = json.dumps(dictionary, indent=4)
+ 
+with open(f'output/{song}.json', "w") as outfile:
+    outfile.write(json_object)
 
-# The variable sr contains the sampling rate of y , 
-# that is, the number of samples per second of audio.
+print('\n', len(y), '/', sr, '=', len(y)/sr, 'seconds')
+# https://screenrec.com/share/AMPRWv3aB0
