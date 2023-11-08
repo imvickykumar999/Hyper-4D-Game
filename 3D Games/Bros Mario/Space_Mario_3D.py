@@ -102,6 +102,8 @@ def update():
         dx =- dx # bounce back
 
 def input(key):
+    if key == 'escape':
+        quit()
     if key == 'right mouse down' and mouse.hovered_entity:
         destroy(mouse.hovered_entity)
 
