@@ -4,11 +4,16 @@ from ursina.prefabs.first_person_controller import FirstPersonController
 
 app = Ursina()
 t = time.time()
-window.fullscreen = True
 
-player = FirstPersonController(collider='box')
+player = FirstPersonController(
+    collider='box', 
+    model='sphere', 
+    parent=camera,
+    color=color.yellow,
+    texture='heightmap_1'
+)
+
 player.gravity = 10e-2
-
 player.x = 1
 player.y = 3
 player.z = 3
@@ -120,5 +125,6 @@ won = Text(
 
 skybox_image = load_texture("static/space.png")
 sky = Sky(texture=skybox_image)
-# Sky()
+
+window.fullscreen = True
 app.run()
